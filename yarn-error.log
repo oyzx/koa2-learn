@@ -1,0 +1,63 @@
+Arguments: 
+  D:\Node-v10.16.3\node.exe C:\Users\15972\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add koa-redis
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;D:\Git\cmd;D:\VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Develop\quickgame-toolkit\lib\bin;D:\SSL\bin;D:\Python27;D:\Android\JDK\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Develop\快游戏工具\quickgame-toolkit-laya\lib\bin;D:\golang\bin;D:\MySql\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;F:\oppo\lib\bin;D:\OpenSSL;D:\Node-v10.16.3\;D:\MongoDB\Server\4.2\bin;C:\Users\15972\AppData\Local\Microsoft\WindowsApps;D:\GoCode\bin;D:\GoLand\path\bin;C:\Users\15972\AppData\Local\atom\bin;D:\huawei\Huawei FastApp IDE\bin;C:\Users\15972\AppData\Roaming\npm
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://r.cnpmjs.org/co-wrap-all/download/co-wrap-all-1.0.0.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (C:\Users\15972\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\15972\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\15972\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66161:16)
+      at Request.emit (events.js:198:13)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\15972\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130467:10)
+      at ClientRequest.emit (events.js:203:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+      at TLSSocket.socketOnData (_http_client.js:442:20)
+      at TLSSocket.emit (events.js:198:13)
+
+npm manifest: 
+  {
+    "name": "koa2-learn",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node bin/www",
+      "dev": "./node_modules/.bin/nodemon bin/www",
+      "prd": "pm2 start bin/www",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "debug": "^4.1.1",
+      "ejs": "~2.3.3",
+      "koa": "^2.7.0",
+      "koa-bodyparser": "^4.2.1",
+      "koa-convert": "^1.2.0",
+      "koa-generic-session": "^2.0.1",
+      "koa-json": "^2.0.2",
+      "koa-logger": "^3.2.0",
+      "koa-onerror": "^4.1.0",
+      "koa-router": "^7.4.0",
+      "koa-static": "^5.0.0",
+      "koa-views": "^6.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
